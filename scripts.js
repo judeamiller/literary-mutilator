@@ -1,9 +1,11 @@
 
+//This function changes the color of the futurama paragraph
 function futuramaBlue() {
 	let futuramaPagraph = document.getElementById("futurama");
 	futuramaPagraph.style.color = "blue";
 }
 
+//The following two textReplace Functions change pre-determined words in a the holland1945 excerpt to completely ruin it.
 function textReplace() {
 	document.getElementById("holland").innerHTML = document.getElementById("holland").innerHTML.replace ('girl' , 'CAPTAIN');
 	console.log(this);
@@ -14,7 +16,7 @@ function textReplace2() {
 	console.log(this);
 }
 
-
+//Rot 13 Encryption
 
 // function rot13(string) {
 // 	var input = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
@@ -22,7 +24,8 @@ function textReplace2() {
 // }
 
 
-var paragraph = document.querySelector("fillHere");
+//XML HTTPRequest
+var paragraph = document.getElementById("fillHere");
 
 var requestURL = 'https://jsonplaceholder.typicode.com/posts/1';
 var request = new XMLHttpRequest();
@@ -37,4 +40,10 @@ request.onload= function() {
 	showParagraph(paragraph);
 }
 
-function populate
+function populateParagraph(jsonObj) {
+	let myPara = document.createElement('p');
+	myPara.textContent = jsonObj['body'];
+	paragraph.appendChild(myPara);
+}
+
+
