@@ -21,11 +21,11 @@
 		<p><button type="submit" id="rot13">Rot the text!</button></p>
 		<p>Rot(13)en Text: <span id="rotText"></span></p>
 
-		<p>The only girl I've ever loved	was born with roses in her eyes but then they buried her alive	one evening 1945
+		<p id="holland">The only girl I've ever loved	was born with roses in her eyes but then they buried her alive	one evening 1945
 		with just her sister at her side	And only weeks before the guns all came and rained on everyone	Now she's a
 		little boy in Spain playing pianos filled with flames on empty rings around the sun all sing to say my dream has come</p>
 
-		<p><button type="s<p><button type="submit" id="getData">Get More Text!</button></p>" </p>
+		<p><button type="submit" id="find and replace" onclick="textReplace(), textReplace2()">change it up</button></p>
 
 
 	</body>
