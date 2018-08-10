@@ -24,26 +24,6 @@ function textReplace2() {
 // }
 
 
-//XML HTTPRequest
-var paragraph = document.getElementById("fillHere");
-
-var requestURL = 'https://jsonplaceholder.typicode.com/posts/1';
-var request = new XMLHttpRequest();
-request.open('GET', requestURL);
-request.responseType = 'json';
-request.send();
-
-
-request.onload= function() {
-	var paragraph = request.response;
-	populateParagraph(paragraph);
-	showParagraph(paragraph);
-}
-
-function populateParagraph(jsonObj) {
-	let myPara = document.createElement('p');
-	myPara.textContent = jsonObj['body'];
-	paragraph.appendChild(myPara);
-}
+//Fetch Data From JSONPlaceholder.typicode
 
 
