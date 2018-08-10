@@ -32,10 +32,11 @@ function textInsert(){
 	fetch('https://jsonplaceholder.typicode.com/posts/')
 		.then(res => res.json())
 		.then((data) => {
-			data.forEach(function (user){
-				output = `
-			<p> ${user.body}	</p>`;
-				document.getElementById('fillHere').innerHTML = output
+			let  postBody= '<p><strong>User Posts:</strong></p>';
+			data.forEach(function(post){
+				postBody +=
+					`<p>${post.body}</p>`;
+				document.getElementById('fillHere').innerHTML = postBody
 			});
 		});
 };
