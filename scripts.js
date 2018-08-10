@@ -1,6 +1,6 @@
 
 function futuramaBlue() {
-	var futuramaPagraph = document.getElementById("futurama");
+	let futuramaPagraph = document.getElementById("futurama");
 	futuramaPagraph.style.color = "blue";
 }
 
@@ -16,7 +16,8 @@ function textReplace2() {
 
 
 
-function rot13(string) {
-	var input = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
-	var output = 'NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm';
-}
+// function rot13(string) {
+// 	var input = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
+// 	var output = 'NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm';
+// }
+
