@@ -25,5 +25,18 @@ function textReplace2() {
 
 
 //Fetch Data From JSONPlaceholder.typicode
+function textInsert(){
+	fetch('https://jsonplaceholder.typicode.com/posts/')
+		.then(res => res.json());
 
+	fetch('https://jsonplaceholder.typicode.com/posts/')
+		.then(res => res.json())
+		.then((data) => {
+			data.forEach(function (user){
+				output = `
+			<p> ${user.body}	</p>`;
+				document.getElementById('fillHere').innerHTML = output
+			});
+		});
+};
 
