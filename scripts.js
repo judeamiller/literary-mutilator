@@ -21,3 +21,20 @@ function textReplace2() {
 // 	var output = 'NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm';
 // }
 
+
+var paragraph = document.querySelector("fillHere");
+
+var requestURL = 'https://jsonplaceholder.typicode.com/posts/1';
+var request = new XMLHttpRequest();
+request.open('GET', requestURL);
+request.responseType = 'json';
+request.send();
+
+
+request.onload= function() {
+	var paragraph = request.response;
+	populateParagraph(paragraph);
+	showParagraph(paragraph);
+}
+
+function populate
