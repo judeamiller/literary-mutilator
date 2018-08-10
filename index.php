@@ -48,9 +48,10 @@
 
 
 		<h4>Add More Text!</h4>
-		<p><button type="submit" id="addMoreText">ADD MORE TEXT</button> </p>
+		<p id="fillHere" class="text-danger"></p>
+		<p><button class="btn btn-secondary" type="button" onclick="textInsert()">ADD MORE TEXT</button> </p>
 
-		<p class="fillHere" onclick="populateParagraph()"></p>
+
 		</div>
 
 
