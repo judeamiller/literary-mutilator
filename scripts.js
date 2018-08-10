@@ -7,12 +7,12 @@ function futuramaBlue() {
 
 //The following two textReplace Functions change pre-determined words in a the holland1945 excerpt to completely ruin it.
 function textReplace() {
-	document.getElementById("holland").innerHTML = document.getElementById("holland").innerHTML.replace ('girl' , 'CAPTAIN');
+	document.getElementById("holland").innerHTML = document.getElementById("holland").innerHTML.replace ('girl' , '<span class="text-danger">CAPTAIN</span>');
 	console.log(this);
 }
 
 function textReplace2() {
-	document.getElementById("holland").innerHTML = document.getElementById("holland").innerHTML.replace ('1945' , 'IN THE YEAR 2000');
+	document.getElementById("holland").innerHTML = document.getElementById("holland").innerHTML.replace ('1945' , '<span class="text-danger">IN THE YEAR 2000</span>');
 	console.log(this);
 }
 
