@@ -5,14 +5,12 @@ function futuramaBlue() {
 }
 
 function textReplace() {
-	let text = document.getElementById("holland");
-	document.body.innerHTML = document.body.innerHTML.replace ('girl' , 'CAPTAIN');
+	document.getElementById("holland").innerHTML = document.getElementById("holland").innerHTML.replace ('girl' , 'CAPTAIN');
 	console.log(this);
 }
 
 function textReplace2() {
-	let text = document.getElementById("holland");
-	document.body.innerHTML = document.body.innerHTML.replace ('1945' , 'IN THE YEAR 2000');
+	document.getElementById("holland").innerHTML = document.getElementById("holland").innerHTML.replace ('1945' , 'IN THE YEAR 2000');
 	console.log(this);
 }
 
