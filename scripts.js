@@ -44,6 +44,29 @@ function resort() {
 	});
 }
 
+// anagram function (really just lowercasing and reversing
+function anagram() {
+	let textToAnagram = document.getElementById("shuffleMiata").textContent;
+
+	//split the words  based on  space to get an array of words
+	textToAnagram = textToAnagram.toLocaleLowerCase().split(" ");
+	console.log(textToAnagram);
+	//create a variable to hold the anagramed words
+	let anagramText= [];
+
+	//loop through each word
+	for(let i = 0; i < textToAnagram.length; i++) {
+		// split, randomize and join each string in the array
+		let temporary = textToAnagram[i].split("").reverse().join("");
+		anagramText[i] = temporary;
+	}
+
+	let shuffleText = anagramText.toString().split(",").join(" ");
+
+	document.getElementById("gramana").textContent= shuffleText;
+
+}
+
 //Fetch Data From JSONPlaceholder.typicode
 //place normal fetch inside of a function
 function textInsert(){
@@ -62,3 +85,5 @@ function textInsert(){
 		});
 };
 
+//drag and drop
+//
