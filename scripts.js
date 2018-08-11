@@ -10,6 +10,16 @@ function futuramaRed() {
 	futuramaPagraph.style.color = "red";
 }
 
+//press N to enhance
+function enhance(e) {
+	if(e.keyCode == "78") {
+		document.getElementById("title").innerHTML = document.getElementById("title").innerHTML.replace("Mutilator", '<span class="bg-warning">Enhancer</span>')
+	}
+}
+
+window.addEventListener("keydown", enhance);
+
+
 //The following two textReplace Functions change pre-determined words in a the holland1945 excerpt to completely ruin it.
 function textReplace() {
 	document.getElementById("holland").innerHTML = document.getElementById("holland").innerHTML.replace ('girl' , '<span class="text-danger">CAPTAIN</span>');
@@ -66,6 +76,30 @@ function anagram() {
 	document.getElementById("gramana").textContent= shuffleText;
 
 }
+
+// retrieve the second letter from each word
+function secondLetter() {
+	let textToSecond= document.getElementById("shuffleMiata").textContent;
+
+	//split the words  based on  space to get an array of words
+	textToSecond = textToSecond.toLowerCase().split(" ");
+	console.log(textToSecond);
+	//create a variable to hold the anagramed words
+	let secondLetter= [];
+
+	//loop through each word
+	for(let i = 0; i < textToSecond.length; i++) {
+		// split, randomize and join each string in the array
+		let temporary2 = textToSecond[i].charAt(2).split(",").join(" ");
+		secondLetter[i] = temporary2;
+	}
+
+	let secretMessage = secondLetter.toString().split(",").join('');
+
+	document.getElementById("message").textContent= secretMessage;
+
+}
+
 
 //Fetch Data From JSONPlaceholder.typicode
 //place normal fetch inside of a function
