@@ -19,12 +19,14 @@
 		<!--	Scripts Link	-->
 		<script src="scripts.js"></script>
 
+		<!--		stylesheet-->
+		<link rel="stylesheet" href="css/style.css"/>
 		<!--	Page Title	-->
 		<title>Literary Mutilator</title>
 	</head>
 	<body>
 		<div class="container">
-		<h1 class="text-center">Radom Paragraphs</h1>
+		<h1 class="text-center" id="title">Literary Mutilator</h1>
 		<h3>This Paragraph Can Change Color</h3>
 		<p id="futurama">Then throw her in the laundry room, which will hereafter be referred to as “the brig”. Kids have names? Come,
 		Comrade Bender! We must take to the streets! Shut up and get to the point! Have you ever tried just turning off the
@@ -42,6 +44,7 @@
 		<p><button class="btn btn-success" type="submit" onclick="resort()">Rearrange!</button>
 			<button class="btn btn-success" type="submit" onclick="anagram()">anagrams!</button></p>
 		<p>Rearranged Text: <span id="shuffle" class="text-secondary"></span></p>
+		<p>Anagram Text: <span id="gramana" class="text-secondary"></span></p>
 
 		<h3>Ruin a classic lyric</h3>
 		<p id="holland">The only girl I've ever loved	was born with roses in her eyes but then they buried her alive	one evening 1945
@@ -51,19 +54,14 @@
 		<p><button class="btn btn-danger" type="submit" id="find and replace" onclick="textReplace(), textReplace2()">Ruin Lyrics</button></p>
 
 
-		<h4>Add More Text!</h4>
+		<h3>Add More Text!</h3>
 		<p id="fillHere" class="text-danger"></p>
 		<p><button class="btn btn-secondary" type="button" onclick="textInsert()">ADD MORE TEXT</button> </p>
 
 
 		</div>
 <!--		drag and drop using medium QuickCode Tutorial-->
-		<div class="container">
-			<div class="box" draggable="true"></div>
-		</div>
-		<div class="container">
 
-		</div>
 
 
 	</body>
