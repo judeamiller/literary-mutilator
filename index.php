@@ -27,6 +27,7 @@
 	<body>
 		<div class="container">
 		<h1 class="text-center" id="title">Literary Mutilator</h1>
+			<p class="text-center"><em>press "N" to enhance</em></p>
 		<h3>This Paragraph Can Change Color</h3>
 		<p id="futurama">Then throw her in the laundry room, which will hereafter be referred to as “the brig”. Kids have names? Come,
 		Comrade Bender! We must take to the streets! Shut up and get to the point! Have you ever tried just turning off the
