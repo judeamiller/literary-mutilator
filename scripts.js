@@ -80,7 +80,7 @@ function anagram() {
 // retrieve the second letter from each word
 function secondLetter() {
 	let textToSecond= document.getElementById("shuffleMiata").textContent;
-
+
 	//split the words  based on  space to get an array of words
 	textToSecond = textToSecond.toLowerCase().split(" ");
 	console.log(textToSecond);
