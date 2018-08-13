@@ -73,7 +73,7 @@ function anagram() {
 
 	let shuffleText = anagramText.toString().split(",").join(" ");
 
-	document.getElementById("gramana").textContent= shuffleText;
+	document.getElementById("margana").textContent= shuffleText;
 
 }
 
@@ -99,6 +99,15 @@ function secondLetter() {
 	document.getElementById("message").textContent= secretMessage;
 }
 
+//remove the last word of a string
+function removeWord() {
+	let paragraphWordRemove = document.getElementById("holland").textContent;
+
+	wordRemoved = paragraphWordRemove.replace(/\w+[.!?]?$/,'');
+	document.getElementById("holland").textContent = wordRemoved;
+}
+
+
 
 //Fetch Data From JSONPlaceholder.typicode
 //place normal fetch inside of a function
@@ -117,6 +126,11 @@ function textInsert(){
 			});
 		});
 };
+
+
+
+
+
 
 //drag and drop
 //
