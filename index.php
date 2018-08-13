@@ -37,15 +37,20 @@
 
 
 		<h3>Rearrange Nonsense</h3>
-		<p id="shuffleMiata">Miata ipsum dolor amet Tom Matano 10ae dragon dipstick rev9 shocks. Ls shifter apex swaybar. Top down torsen touring
-		shifter. Ls barndoor se g-force montego, eyeball vents daisies laguna latch. Speeding zoom turbo, montego 10ae zoom
-		torsen mx-5 pop-up swaybar springs Nardi turbo nc. Sunburst din top up club, slow car fast shocks barn door mariner
-		shifter emerald top down miata. Sport Mazda abs laguna cas speeding zoom turbo.</p>
+		<p id="shuffleBluth">
+			That was Tom Cruise, the actor. They said he was some kind of scientist. These are my awards, Mother. From Army.
+			The seal is for marksmanship, and the gorilla is for sand racing. No! These are just strippers! Look how hot they are!
+			One of the guys told me to take my head out of my BOTTOM and get back to work…my BOTTOM! We need a name. Maybe
+			"Operation Hot Mother."	No, let's try to top that. (They never did.) OH MY GOD, WE'RE HAVING A FIRE… sale. Oh,
+			the burning! ♪♪Amaaaaaaziiiing Graaaace ♪♪ With spicy club sauce.
+			</p>
 
 		<p><button class="btn btn-success" type="submit" onclick="resort()">Rearrange!</button>
-			<button class="btn btn-success" type="submit" onclick="anagram()">anagrams!</button></p>
+			<button class="btn btn-success" type="submit" onclick="anagram()">anagrams!</button>
+			<button class="btn btn-success" type="submit" onclick="secondLetter()">secret message!</button></p>
 		<p>Rearranged Text: <span id="shuffle" class="text-secondary"></span></p>
 		<p>Anagram Text: <span id="gramana" class="text-secondary"></span></p>
+		<p>Secret Message: <span id="message"></span></p>
 
 		<h3>Ruin a classic lyric</h3>
 		<p id="holland">The only girl I've ever loved	was born with roses in her eyes but then they buried her alive	one evening 1945

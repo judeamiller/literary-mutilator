@@ -33,7 +33,7 @@ function textReplace2() {
 
 //rearrange
 function resort() {
-	let text = document.getElementById("shuffleMiata").textContent;
+	let text = document.getElementById("shuffleBluth").textContent;
 
 	//make an array of words based on empty spaces
 	let words = text.split(" ");
@@ -56,7 +56,7 @@ function resort() {
 
 // anagram function (really just lowercasing and reversing
 function anagram() {
-	let textToAnagram = document.getElementById("shuffleMiata").textContent;
+	let textToAnagram = document.getElementById("shuffleBluth").textContent;
 
 	//split the words  based on  space to get an array of words
 	textToAnagram = textToAnagram.toLocaleLowerCase().split(" ");
@@ -79,7 +79,7 @@ function anagram() {
 
 // retrieve the second letter from each word
 function secondLetter() {
-	let textToSecond= document.getElementById("shuffleMiata").textContent;
+	let textToSecond= document.getElementById("shuffleBluth").textContent;
 
 	//split the words  based on  space to get an array of words
 	textToSecond = textToSecond.toLowerCase().split(" ");
