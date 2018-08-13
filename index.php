@@ -36,13 +36,13 @@
 			<button class="btn btn-danger ml-2" type="submit" onclick="futuramaRed()">Turn This Paragraph Red</button></p>
 
 
-		<h3>Rearrange Nonsense</h3>
+		<h3>Rearrange Bluth</h3>
 		<p id="shuffleBluth">
 			That was Tom Cruise, the actor. They said he was some kind of scientist. These are my awards, Mother. From Army.
 			The seal is for marksmanship, and the gorilla is for sand racing. No! These are just strippers! Look how hot they are!
 			One of the guys told me to take my head out of my BOTTOM and get back to work…my BOTTOM! We need a name. Maybe
 			"Operation Hot Mother."	No, let's try to top that. (They never did.) OH MY GOD, WE'RE HAVING A FIRE… sale. Oh,
-			the burning! ♪♪Amaaaaaaziiiing Graaaace ♪♪ With spicy club sauce.
+			the burning! ♪♪Amaaaaaaziiiing Graaaace ♪♪ With spicy club sauce. I'll be in the hospital bar.
 			</p>
 
 		<p><button class="btn btn-success" type="submit" onclick="resort()">Rearrange!</button>
@@ -57,7 +57,7 @@
 		with just her sister at her side	And only weeks before the guns all came and rained on everyone	Now she's a
 		little boy in Spain playing pianos filled with flames on empty rings around the sun all sing to say my dream has come</p>
 
-		<p><button class="btn btn-danger" type="submit" id="find and replace" onclick="textReplace(), textReplace2()">Ruin Lyrics</button></p>
+		<p><button class="btn btn-danger" type="submit" id="find and replace" onclick="textReplace(); textReplace2()">Ruin Lyrics</button></p>
 
 
 		<h3>Add More Text!</h3>
