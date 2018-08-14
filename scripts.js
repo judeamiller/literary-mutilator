@@ -10,6 +10,14 @@ function futuramaRed() {
 	futuramaPagraph.style.color = "red";
 }
 
+//remove the last word of a string with regex
+function removeWord() {
+	let paragraphWordRemove = document.getElementById("futurama").textContent;
+
+	wordRemoved = paragraphWordRemove.replace(/\w+[.!?]?$/,'');
+	document.getElementById("futurama").textContent = wordRemoved;
+}
+
 //press N to enhance
 function enhance(e) {
 	if(e.keyCode == "78") {
@@ -99,15 +107,7 @@ function secondLetter() {
 	document.getElementById("message").textContent= secretMessage;
 }
 
-//remove the last word of a string with regex
-function removeWord() {
-	let paragraphWordRemove = document.getElementById("holland").textContent;
-
-	wordRemoved = paragraphWordRemove.replace(/\w+[.!?]?$/,'');
-	document.getElementById("holland").textContent = wordRemoved;
-}
-
-//Remove Last Charachter by scrolling
+//Remove Last Character by scrolling
 function removeLastChar() {
 	let paragraphCharRemove = document.getElementById("holland").textContent;
 	charRemoved = paragraphCharRemove.slice(0, -1);
