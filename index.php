@@ -61,17 +61,9 @@
 
 		<p><button class="btn btn-danger" type="submit" id="find and replace" onclick="textReplace(); textReplace2()">Ruin Lyrics</button></p>
 
-
-
 			<h3>Add More Text!</h3>
 		<p id="fillHere" class="text-danger"></p>
 		<p><button class="btn btn-secondary" type="button" onclick="textInsert()">ADD MORE TEXT</button> </p>
-
-
 		</div>
-<!--		drag and drop using medium QuickCode Tutorial-->
-
-
-
 	</body>
 </html>
