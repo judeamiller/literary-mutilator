@@ -34,7 +34,7 @@
 		TV, sitting down with your children, and hitting them?</p>
 		<p><button class="btn btn-primary" type="submit" onclick="futuramaBlue()">Turn This Paragraph Blue</button>
 			<button class="btn btn-danger ml-2" type="submit" onclick="futuramaRed()">Turn This Paragraph Red</button>
-			<button class="btn btn-warning" type="submit" onclick="removeWord()">remove word with regex</button></p>
+			<button class="btn btn-warning ml-2" type="submit" onclick="removeWord()">remove word with regex</button></p>
 
 
 		<h3>Rearrange Bluth</h3>
