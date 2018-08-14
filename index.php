@@ -19,9 +19,9 @@
 		<!--	Scripts Link	-->
 		<script src="scripts.js"></script>
 
-		<!--		stylesheet-->
+		<!--stylesheet-->
 		<link rel="stylesheet" href="css/style.css"/>
-		<!--	Page Title	-->
+		<!--Page Title	-->
 		<title>Literary Mutilator</title>
 	</head>
 	<body>
@@ -54,14 +54,14 @@
 		<p>Secret Message: <span id="message"></span></p>
 
 		<h3>Ruin a classic lyric</h3>
-			<p><em>Remove one word at a time by scrolling.</em></p>
+		<p><em>Remove one word at a time by scrolling.</em></p>
 		<p id="holland">The only girl I've ever loved	was born with roses in her eyes but then they buried her alive	one evening 1945
 		with just her sister at her side	And only weeks before the guns all came and rained on everyone	Now she's a
 		little boy in Spain playing pianos filled with flames on empty rings around the sun all sing to say my dream has come.</p>
 
 		<p><button class="btn btn-danger" type="submit" id="find and replace" onclick="textReplace(); textReplace2()">Ruin Lyrics</button></p>
 
-			<h3>Add More Text!</h3>
+		<h3>Add More Text!</h3>
 		<p id="fillHere" class="text-danger"></p>
 		<p><button class="btn btn-secondary" type="button" onclick="textInsert()">ADD MORE TEXT</button> </p>
 		</div>
