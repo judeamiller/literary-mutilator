@@ -136,11 +136,3 @@ function textInsert(){
 			});
 		});
 };
-
-
-
-
-
-
-//drag and drop
-//
