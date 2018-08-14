@@ -99,13 +99,23 @@ function secondLetter() {
 	document.getElementById("message").textContent= secretMessage;
 }
 
-//remove the last word of a string
+//remove the last word of a string with regex
 function removeWord() {
 	let paragraphWordRemove = document.getElementById("holland").textContent;
 
 	wordRemoved = paragraphWordRemove.replace(/\w+[.!?]?$/,'');
 	document.getElementById("holland").textContent = wordRemoved;
 }
+
+//Remove Last Charachter by scrolling
+function removeLastChar() {
+	let paragraphCharRemove = document.getElementById("holland").textContent;
+	charRemoved = paragraphCharRemove.slice(0, -1);
+	document.getElementById("holland").textContent = charRemoved;
+}
+
+window.addEventListener("scroll", removeLastChar);
+
 
 
 
