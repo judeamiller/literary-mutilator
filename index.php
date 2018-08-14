@@ -33,7 +33,8 @@
 		Comrade Bender! We must take to the streets! Shut up and get to the point! Have you ever tried just turning off the
 		TV, sitting down with your children, and hitting them?</p>
 		<p><button class="btn btn-primary" type="submit" onclick="futuramaBlue()">Turn This Paragraph Blue</button>
-			<button class="btn btn-danger ml-2" type="submit" onclick="futuramaRed()">Turn This Paragraph Red</button></p>
+			<button class="btn btn-danger ml-2" type="submit" onclick="futuramaRed()">Turn This Paragraph Red</button>
+			<button class="btn btn-warning" type="submit" onclick="removeWord()">remove word with regex</button></p>
 
 
 		<h3>Rearrange Bluth</h3>
@@ -49,18 +50,20 @@
 			<button class="btn btn-success" type="submit" onclick="anagram()">anagrams!</button>
 			<button class="btn btn-success" type="submit" onclick="secondLetter()">secret message!</button></p>
 		<p>Rearranged Text: <span id="shuffle" class="text-secondary"></span></p>
-		<p>Anagram Text: <span id="gramana" class="text-secondary"></span></p>
+		<p>Anagram Text: <span id="margana" class="text-secondary"></span></p>
 		<p>Secret Message: <span id="message"></span></p>
 
 		<h3>Ruin a classic lyric</h3>
+			<p><em>Remove one word at a time by scrolling.</em></p>
 		<p id="holland">The only girl I've ever loved	was born with roses in her eyes but then they buried her alive	one evening 1945
 		with just her sister at her side	And only weeks before the guns all came and rained on everyone	Now she's a
-		little boy in Spain playing pianos filled with flames on empty rings around the sun all sing to say my dream has come</p>
+		little boy in Spain playing pianos filled with flames on empty rings around the sun all sing to say my dream has come.</p>
 
 		<p><button class="btn btn-danger" type="submit" id="find and replace" onclick="textReplace(); textReplace2()">Ruin Lyrics</button></p>
 
 
-		<h3>Add More Text!</h3>
+
+			<h3>Add More Text!</h3>
 		<p id="fillHere" class="text-danger"></p>
 		<p><button class="btn btn-secondary" type="button" onclick="textInsert()">ADD MORE TEXT</button> </p>
 
